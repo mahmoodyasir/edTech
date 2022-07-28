@@ -1,11 +1,52 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* Custom Overriding Styles */
+
 .absolute-div {
     position: absolute;
-    top: 45%;
+    top: 30%;
     left: 0;
     right: 0;
     bottom: 0;
 }
 
-.overlay-dark {
-    background-color: rgba(black, 0.4);
+.overlay-dark:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-dark img {
+    min-height: 250px;
+}
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.large-font {
+    font-size: calc(100% + 3vw + 1vh);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+    .absolute-div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .large-font {
+        font-size: calc(100% + 1vw + 1vh);
+        font-weight: 600;
+    }
 }
