@@ -1,0 +1,11 @@
+.absolute-div {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.overlay-dark {
+    background-color: rgba(black, 0.4);
+}
