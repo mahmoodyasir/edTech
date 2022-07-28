@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-/* Custom Overriding Styles */
+/* Fonts */
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Overriding Styles for CAROUSEL to make responsive*/
 
 .absolute-div {
     position: absolute;
@@ -24,11 +30,6 @@
 
 .overlay-dark img {
     min-height: 250px;
-}
-
-.poppins-font {
-    font-family: 'Poppins', sans-serif;
-    color: white;
 }
 
 .large-font {
